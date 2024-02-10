@@ -1,6 +1,8 @@
 package com.example.zaludaradimmovieapp.movies.data.local.movie
 
-
+import androidx.room.Dao
+import androidx.room.Query
+import androidx.room.Upsert
 @Dao
 
 interface MovieDAO {
