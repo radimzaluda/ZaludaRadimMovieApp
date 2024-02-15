@@ -33,6 +33,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.zaludaradimmovieapp.movies.presentation.MovieListUIEvent
 import com.example.zaludaradimmovieapp.movies.presentation.MovieListViewModel
+import com.example.zaludaradimmovieapp.movies.presentation.PopularMoviesScreen
 import com.example.zaludaradimmovieapp.movies.util.Screen
 
 
@@ -75,10 +76,10 @@ fun HomeScreen(navController: NavHostController) {
                 startDestination = Screen.PopularMovieList.rout
             ) {
                 composable(Screen.PopularMovieList.rout) {
-//                    PopularMoviesScreen()
+                  // PopularMoviesScreen()
                 }
                 composable(Screen.UpcomingMovieList.rout) {
-//                    PopularMoviesScreen()
+                  // PopularMoviesScreen()
                 }
             }
         }
